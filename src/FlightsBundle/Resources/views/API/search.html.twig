@@ -1,0 +1,20 @@
+
+<html><body>
+{{ include('FlightsBundle::login_content.html.twig') }}
+<div style="display:flex;justify-content:center;align-items: center;height: 50vh; text-align: center">
+    <div>
+
+        <form method="POST" action="{{ path('showFlights') }}">
+            <label> Where do you want to go? <br>
+                <select name="airport">
+                    {% for airport in airports %}
+                        <option value="{{ airport.IATA }}">{{ airport.Airport }}</option>
+                    {% endfor %}
+                </select><br>
+                <input class="btn btn-primary btn-md" type="submit" value="Prepare for an adventure!">
+            </label>
+        </form>
+    </div>
+</div>
+
+</body></html>

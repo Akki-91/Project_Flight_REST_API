@@ -1,0 +1,1442 @@
+[
+  {
+    "Airport": "Tirana Airport",
+    "Country": "Albania",
+    "IATA": "TIA",
+    "ICAO airport code": "LATI"
+  },
+  {
+    "Airport": "Yerevan Zvartnots Airport",
+    "Country": "Armenia",
+    "IATA": "EVN",
+    "ICAO airport code": "UDYZ"
+  },
+  {
+    "Airport": "Graz Airport",
+    "Country": "Austria",
+    "IATA": "GRZ",
+    "ICAO airport code": "LOWG"
+  },
+  {
+    "Airport": "Innsbruck Airport",
+    "Country": "Austria",
+    "IATA": "INN",
+    "ICAO airport code": "LOWI"
+  },
+  {
+    "Airport": "Klagenfurt Airport",
+    "Country": "Austria",
+    "IATA": "KLU",
+    "ICAO airport code": "LOWK"
+  },
+  {
+    "Airport": "Linz Airport",
+    "Country": "Austria",
+    "IATA": "LNZ",
+    "ICAO airport code": "LOWL"
+  },
+  {
+    "Airport": "Salzburg Airport",
+    "Country": "Austria",
+    "IATA": "SZG",
+    "ICAO airport code": "LOWS"
+  },
+  {
+    "Airport": "Vienna Airport",
+    "Country": "Austria",
+    "IATA": "VIE",
+    "ICAO airport code": "LOWW"
+  },
+  {
+    "Airport": "Baku Airport",
+    "Country": "Azerbaijan",
+    "IATA": "GYD",
+    "ICAO airport code": "UBBB"
+  },
+  {
+    "Airport": "Minsk Airport",
+    "Country": "Belarus",
+    "IATA": "MSQ",
+    "ICAO airport code": "UMMS"
+  },
+  {
+    "Airport": "Antwerp Airport",
+    "Country": "Belgium",
+    "IATA": "ANR",
+    "ICAO airport code": "EBAW"
+  },
+  {
+    "Airport": "Brussels Airport",
+    "Country": "Belgium",
+    "IATA": "BRU",
+    "ICAO airport code": "EBBR"
+  },
+  {
+    "Airport": "Charleroi Airport",
+    "Country": "Belgium",
+    "IATA": "CRL",
+    "ICAO airport code": "EBCI"
+  },
+  {
+    "Airport": "Liege Airport",
+    "Country": "Belgium",
+    "IATA": "LGG",
+    "ICAO airport code": "EBLG"
+  },
+  {
+    "Airport": "Ostend Bruges Airport",
+    "Country": "Belgium",
+    "IATA": "OST",
+    "ICAO airport code": "EBOS"
+  },
+  {
+    "Airport": "Sarajevo Airport",
+    "Country": "Bosnia and Herzegovina",
+    "IATA": "SJJ",
+    "ICAO airport code": "LQSA"
+  },
+  {
+    "Airport": "Burgas Airport",
+    "Country": "Bulgaria",
+    "IATA": "BOJ",
+    "ICAO airport code": "LBBG"
+  },
+  {
+    "Airport": "Sofia Airport",
+    "Country": "Bulgaria",
+    "IATA": "SOF",
+    "ICAO airport code": "LBSF"
+  },
+  {
+    "Airport": "Varna Airport",
+    "Country": "Bulgaria",
+    "IATA": "VAR",
+    "ICAO airport code": "LBWN"
+  },
+  {
+    "Airport": "Dubrovnik Airport",
+    "Country": "Croatia",
+    "IATA": "DBV",
+    "ICAO airport code": "LDDU"
+  },
+  {
+    "Airport": "Split Airport",
+    "Country": "Croatia",
+    "IATA": "SPU",
+    "ICAO airport code": "LDSP"
+  },
+  {
+    "Airport": "Zagreb Airport",
+    "Country": "Croatia",
+    "IATA": "ZAG",
+    "ICAO airport code": "LDZA"
+  },
+  {
+    "Airport": "Larnaca Airport",
+    "Country": "Cyprus",
+    "IATA": "LCA",
+    "ICAO airport code": "LCLK"
+  },
+  {
+    "Airport": "Paphos Airport",
+    "Country": "Cyprus",
+    "IATA": "PFO",
+    "ICAO airport code": "LCPH"
+  },
+  {
+    "Airport": "Brno Airport",
+    "Country": "Czech Republic",
+    "IATA": "BRQ",
+    "ICAO airport code": "LKTB"
+  },
+  {
+    "Airport": "Prague Airport",
+    "Country": "Czech Republic",
+    "IATA": "PRG",
+    "ICAO airport code": "LKPR"
+  },
+  {
+    "Airport": "Aalborg Airport",
+    "Country": "Denmark",
+    "IATA": "AAL",
+    "ICAO airport code": "EKYT"
+  },
+  {
+    "Airport": "Aarhus Airport",
+    "Country": "Denmark",
+    "IATA": "AAR",
+    "ICAO airport code": "EKAH"
+  },
+  {
+    "Airport": "Billund Airport",
+    "Country": "Denmark",
+    "IATA": "BLL",
+    "ICAO airport code": "EKBI"
+  },
+  {
+    "Airport": "Copenhagen Airport",
+    "Country": "Denmark",
+    "IATA": "CPH",
+    "ICAO airport code": "EKCH"
+  },
+  {
+    "Airport": "Tallinn Airport",
+    "Country": "Estonia",
+    "IATA": "TLL",
+    "ICAO airport code": "EETN"
+  },
+  {
+    "Airport": "Helsinki Vantaa Airport",
+    "Country": "Finland",
+    "IATA": "HEL",
+    "ICAO airport code": "EFHK"
+  },
+  {
+    "Airport": "Lappeenranta Airport",
+    "Country": "Finland",
+    "IATA": "LPP",
+    "ICAO airport code": "EFLP"
+  },
+  {
+    "Airport": "Oulu Airport",
+    "Country": "Finland",
+    "IATA": "OUL",
+    "ICAO airport code": "EFOU"
+  },
+  {
+    "Airport": "Rovaniemi Airport",
+    "Country": "Finland",
+    "IATA": "RVN",
+    "ICAO airport code": "EFRO"
+  },
+  {
+    "Airport": "Tampere Airport",
+    "Country": "Finland",
+    "IATA": "TMP",
+    "ICAO airport code": "EFTP"
+  },
+  {
+    "Airport": "Turku Airport",
+    "Country": "Finland",
+    "IATA": "TKU",
+    "ICAO airport code": "EFTU"
+  },
+  {
+    "Airport": "Ajaccio Airport",
+    "Country": "France",
+    "IATA": "AJA",
+    "ICAO airport code": "LFKJ"
+  },
+  {
+    "Airport": "Basel Mulhouse Freiburg Airport",
+    "Country": "France",
+    "IATA": "BSL, MLH",
+    "ICAO airport code": "LFSB"
+  },
+  {
+    "Airport": "Bastia Airport",
+    "Country": "France",
+    "IATA": "BIA",
+    "ICAO airport code": "LFKB"
+  },
+  {
+    "Airport": "Bergerac Airport",
+    "Country": "France",
+    "IATA": "EGC",
+    "ICAO airport code": "LFBE"
+  },
+  {
+    "Airport": "Biarritz Airport",
+    "Country": "France",
+    "IATA": "BIQ",
+    "ICAO airport code": "LFBZ"
+  },
+  {
+    "Airport": "Bordeaux Airport",
+    "Country": "France",
+    "IATA": "BOD",
+    "ICAO airport code": "LFBD"
+  },
+  {
+    "Airport": "Brest Bretagne Airport",
+    "Country": "France",
+    "IATA": "BES",
+    "ICAO airport code": "LFRB"
+  },
+  {
+    "Airport": "Brive Airport",
+    "Country": "France",
+    "IATA": "BVE",
+    "ICAO airport code": "LFBV"
+  },
+  {
+    "Airport": "Figari South Corsica Airport",
+    "Country": "France",
+    "IATA": "FSC",
+    "ICAO airport code": "LFKF"
+  },
+  {
+    "Airport": "Lille Airport",
+    "Country": "France",
+    "IATA": "LIL",
+    "ICAO airport code": "LFQQ"
+  },
+  {
+    "Airport": "Lyon-Saint ExupÃ©ry Airport",
+    "Country": "France",
+    "IATA": "LYS",
+    "ICAO airport code": "LFLL"
+  },
+  {
+    "Airport": "Marseille Airport",
+    "Country": "France",
+    "IATA": "MRS",
+    "ICAO airport code": "LFML"
+  },
+  {
+    "Airport": "Montpellier Airport",
+    "Country": "France",
+    "IATA": "MPL",
+    "ICAO airport code": "LFMT"
+  },
+  {
+    "Airport": "Nantes Airport",
+    "Country": "France",
+    "IATA": "NTE",
+    "ICAO airport code": "LFRS"
+  },
+  {
+    "Airport": "Nice Airport",
+    "Country": "France",
+    "IATA": "NCE",
+    "ICAO airport code": "LFMN"
+  },
+  {
+    "Airport": "Paris Beauvais Airport",
+    "Country": "France",
+    "IATA": "BVA",
+    "ICAO airport code": "LFOB"
+  },
+  {
+    "Airport": "Paris Charles de Gaulle Airport",
+    "Country": "France",
+    "IATA": "CDG",
+    "ICAO airport code": "LFPG"
+  },
+  {
+    "Airport": "Paris Orly Airport",
+    "Country": "France",
+    "IATA": "ORY",
+    "ICAO airport code": "LFPO"
+  },
+  {
+    "Airport": "Strasbourg Airport",
+    "Country": "France",
+    "IATA": "SXB",
+    "ICAO airport code": "LFST"
+  },
+  {
+    "Airport": "Toulouse Blagnac Airport",
+    "Country": "France",
+    "IATA": "TLS",
+    "ICAO airport code": "LFBO"
+  },
+  {
+    "Airport": "Tbilisi Airport",
+    "Country": "Georgia",
+    "IATA": "TBS",
+    "ICAO airport code": "UGTB"
+  },
+  {
+    "Airport": "AllgÃ¤u Airport Memmingen",
+    "Country": "Germany",
+    "IATA": "FMM",
+    "ICAO airport code": "EDJA"
+  },
+  {
+    "Airport": "Berlin SchÃ¶nefeld Airport",
+    "Country": "Germany",
+    "IATA": "SXF",
+    "ICAO airport code": "EDDB"
+  },
+  {
+    "Airport": "Berlin Tegel Airport",
+    "Country": "Germany",
+    "IATA": "TXL",
+    "ICAO airport code": "EDDT"
+  },
+  {
+    "Airport": "Bremen Airport",
+    "Country": "Germany",
+    "IATA": "BRE",
+    "ICAO airport code": "EDDW"
+  },
+  {
+    "Airport": "Cologne Bonn Airport",
+    "Country": "Germany",
+    "IATA": "CGN",
+    "ICAO airport code": "EDDK"
+  },
+  {
+    "Airport": "Dortmund Airport",
+    "Country": "Germany",
+    "IATA": "DTM",
+    "ICAO airport code": "EDLW"
+  },
+  {
+    "Airport": "Dresden Airport",
+    "Country": "Germany",
+    "IATA": "DRS",
+    "ICAO airport code": "EDDC"
+  },
+  {
+    "Airport": "DÃ¼sseldorf Airport",
+    "Country": "Germany",
+    "IATA": "DUS",
+    "ICAO airport code": "EDDL"
+  },
+  {
+    "Airport": "Frankfurt Airport",
+    "Country": "Germany",
+    "IATA": "FRA",
+    "ICAO airport code": "EDDF"
+  },
+  {
+    "Airport": "Hahn Airport",
+    "Country": "Germany",
+    "IATA": "HHN",
+    "ICAO airport code": "EDFH"
+  },
+  {
+    "Airport": "Hamburg Airport",
+    "Country": "Germany",
+    "IATA": "HAM",
+    "ICAO airport code": "EDDH"
+  },
+  {
+    "Airport": "Hannover Airport",
+    "Country": "Germany",
+    "IATA": "HAJ",
+    "ICAO airport code": "EDDV"
+  },
+  {
+    "Airport": "Karlsruhe Baden-Baden Airport",
+    "Country": "Germany",
+    "IATA": "FKB",
+    "ICAO airport code": "EDSB"
+  },
+  {
+    "Airport": "Leipzig Halle Airport",
+    "Country": "Germany",
+    "IATA": "LEJ",
+    "ICAO airport code": "EDDP"
+  },
+  {
+    "Airport": "LÃ¼beck Airport",
+    "Country": "Germany",
+    "IATA": "LBC",
+    "ICAO airport code": "EDHL"
+  },
+  {
+    "Airport": "MÃ¼nchen Airport",
+    "Country": "Germany",
+    "IATA": "MUC",
+    "ICAO airport code": "EDDM"
+  },
+  {
+    "Airport": "MÃ¼nster OsnabrÃ¼ck Airport",
+    "Country": "Germany",
+    "IATA": "FMO",
+    "ICAO airport code": "EDDG"
+  },
+  {
+    "Airport": "NÃ¼rnberg Airport",
+    "Country": "Germany",
+    "IATA": "NUE",
+    "ICAO airport code": "EDDN"
+  },
+  {
+    "Airport": "Paderborn Lippstadt Airport",
+    "Country": "Germany",
+    "IATA": "PAD",
+    "ICAO airport code": "EDLP"
+  },
+  {
+    "Airport": "Stuttgart Airport",
+    "Country": "Germany",
+    "IATA": "STR",
+    "ICAO airport code": "EDDS"
+  },
+  {
+    "Airport": "Weeze Airport",
+    "Country": "Germany",
+    "IATA": "NRN",
+    "ICAO airport code": "EDLV"
+  },
+  {
+    "Airport": "Athens Airport",
+    "Country": "Greece",
+    "IATA": "ATH",
+    "ICAO airport code": "LGAV"
+  },
+  {
+    "Airport": "Chania Airport",
+    "Country": "Greece",
+    "IATA": "CHQ",
+    "ICAO airport code": "LGSA"
+  },
+  {
+    "Airport": "Corfu Airport",
+    "Country": "Greece",
+    "IATA": "CFU",
+    "ICAO airport code": "LGKR"
+  },
+  {
+    "Airport": "Heraklion Airport",
+    "Country": "Greece",
+    "IATA": "HER",
+    "ICAO airport code": "LGIR"
+  },
+  {
+    "Airport": "Kos Airport",
+    "Country": "Greece",
+    "IATA": "KGS",
+    "ICAO airport code": "LGKO"
+  },
+  {
+    "Airport": "Rhodos Airport",
+    "Country": "Greece",
+    "IATA": "RHO",
+    "ICAO airport code": "LGRP"
+  },
+  {
+    "Airport": "Thessaloniki Airport",
+    "Country": "Greece",
+    "IATA": "SKG",
+    "ICAO airport code": "LGTS"
+  },
+  {
+    "Airport": "Budapest Airport",
+    "Country": "Hungary",
+    "IATA": "BUD",
+    "ICAO airport code": "LHBP"
+  },
+  {
+    "Airport": "Debrecen Airport",
+    "Country": "Hungary",
+    "IATA": "DEB",
+    "ICAO airport code": "LHDC"
+  },
+  {
+    "Airport": "Keflavik Airport",
+    "Country": "Iceland",
+    "IATA": "KEF",
+    "ICAO airport code": "BIKF"
+  },
+  {
+    "Airport": "Cork Airport",
+    "Country": "Ireland",
+    "IATA": "ORK",
+    "ICAO airport code": "EICK"
+  },
+  {
+    "Airport": "Dublin Airport",
+    "Country": "Ireland",
+    "IATA": "DUB",
+    "ICAO airport code": "EIDW"
+  },
+  {
+    "Airport": "Ireland West Airport Knock",
+    "Country": "Ireland",
+    "IATA": "NOC",
+    "ICAO airport code": "EIKN"
+  },
+  {
+    "Airport": "Kerry Airport",
+    "Country": "Ireland",
+    "IATA": "KIR",
+    "ICAO airport code": "EIKY"
+  },
+  {
+    "Airport": "Shannon Airport",
+    "Country": "Ireland",
+    "IATA": "SNN",
+    "ICAO airport code": "EINN"
+  },
+  {
+    "Airport": "Alghero Airport",
+    "Country": "Italy",
+    "IATA": "AHO",
+    "ICAO airport code": "LIEA"
+  },
+  {
+    "Airport": "Bari Airport",
+    "Country": "Italy",
+    "IATA": "BRI",
+    "ICAO airport code": "LIBD"
+  },
+  {
+    "Airport": "Bergamo Airport",
+    "Country": "Italy",
+    "IATA": "BGY",
+    "ICAO airport code": "LIME"
+  },
+  {
+    "Airport": "Bologna Airport",
+    "Country": "Italy",
+    "IATA": "BLQ",
+    "ICAO airport code": "LIPE"
+  },
+  {
+    "Airport": "Brindisi Airport",
+    "Country": "Italy",
+    "IATA": "BDS",
+    "ICAO airport code": "LIBR"
+  },
+  {
+    "Airport": "Cagliari Airport",
+    "Country": "Italy",
+    "IATA": "CAG",
+    "ICAO airport code": "LIEE"
+  },
+  {
+    "Airport": "Catania Fontanarossa Airport",
+    "Country": "Italy",
+    "IATA": "CTA",
+    "ICAO airport code": "LICC"
+  },
+  {
+    "Airport": "Florence Airport",
+    "Country": "Italy",
+    "IATA": "FLR",
+    "ICAO airport code": "LIRQ"
+  },
+  {
+    "Airport": "Genoa Airport",
+    "Country": "Italy",
+    "IATA": "GOA",
+    "ICAO airport code": "LIMJ"
+  },
+  {
+    "Airport": "Lamezia Terme Airport",
+    "Country": "Italy",
+    "IATA": "SUF",
+    "ICAO airport code": "LICA"
+  },
+  {
+    "Airport": "Milan Linate Airport",
+    "Country": "Italy",
+    "IATA": "LIN",
+    "ICAO airport code": "LIML"
+  },
+  {
+    "Airport": "Milan Malpensa Airport",
+    "Country": "Italy",
+    "IATA": "MXP",
+    "ICAO airport code": "LIMC"
+  },
+  {
+    "Airport": "Naples Airport",
+    "Country": "Italy",
+    "IATA": "NAP",
+    "ICAO airport code": "LIRN"
+  },
+  {
+    "Airport": "Olbia Costa Smeralda Airport",
+    "Country": "Italy",
+    "IATA": "OLB",
+    "ICAO airport code": "LIEO"
+  },
+  {
+    "Airport": "Palermo Airport",
+    "Country": "Italy",
+    "IATA": "PMO",
+    "ICAO airport code": "LICJ"
+  },
+  {
+    "Airport": "Pisa Airport",
+    "Country": "Italy",
+    "IATA": "PSA",
+    "ICAO airport code": "LIRP"
+  },
+  {
+    "Airport": "Rome Ciampino Airport",
+    "Country": "Italy",
+    "IATA": "CIA",
+    "ICAO airport code": "LIRA"
+  },
+  {
+    "Airport": "Rome Fiumicino Airport",
+    "Country": "Italy",
+    "IATA": "FCO",
+    "ICAO airport code": "LIRF"
+  },
+  {
+    "Airport": "Trapani Airport",
+    "Country": "Italy",
+    "IATA": "TPS",
+    "ICAO airport code": "LICT"
+  },
+  {
+    "Airport": "Treviso Airport",
+    "Country": "Italy",
+    "IATA": "TSF",
+    "ICAO airport code": "LIPH"
+  },
+  {
+    "Airport": "Turin Airport",
+    "Country": "Italy",
+    "IATA": "TRN",
+    "ICAO airport code": "LIMF"
+  },
+  {
+    "Airport": "Venice Airport",
+    "Country": "Italy",
+    "IATA": "VCE",
+    "ICAO airport code": "LIPZ"
+  },
+  {
+    "Airport": "Verona Airport",
+    "Country": "Italy",
+    "IATA": "VRN",
+    "ICAO airport code": "LIPX"
+  },
+  {
+    "Airport": "Almaty Airport",
+    "Country": "Kazakhstan",
+    "IATA": "ALA",
+    "ICAO airport code": "UAAA"
+  },
+  {
+    "Airport": "Astana Airport",
+    "Country": "Kazakhstan",
+    "IATA": "TSE",
+    "ICAO airport code": "UACC"
+  },
+  {
+    "Airport": "Riga Airport",
+    "Country": "Latvia",
+    "IATA": "RIX",
+    "ICAO airport code": "EVRA"
+  },
+  {
+    "Airport": "Kaunas Airport",
+    "Country": "Lithuania",
+    "IATA": "KUN",
+    "ICAO airport code": "EYKA"
+  },
+  {
+    "Airport": "Vilnius Airport",
+    "Country": "Lithuania",
+    "IATA": "VNO",
+    "ICAO airport code": "EYVI"
+  },
+  {
+    "Airport": "Luxembourg Airport",
+    "Country": "Luxembourg",
+    "IATA": "LUX",
+    "ICAO airport code": "ELLX"
+  },
+  {
+    "Airport": "Skopje Airport",
+    "Country": "Macedonia",
+    "IATA": "SKP",
+    "ICAO airport code": "LWSK"
+  },
+  {
+    "Airport": "Malta Airport",
+    "Country": "Malta",
+    "IATA": "MLA",
+    "ICAO airport code": "LMML"
+  },
+  {
+    "Airport": "Chisinau Airport",
+    "Country": "Moldova",
+    "IATA": "KIV",
+    "ICAO airport code": "LUKK"
+  },
+  {
+    "Airport": "Podgorica Airport",
+    "Country": "Montenegro",
+    "IATA": "TGD",
+    "ICAO airport code": "LYPG"
+  },
+  {
+    "Airport": "Tivat Airport",
+    "Country": "Montenegro",
+    "IATA": "TIV",
+    "ICAO airport code": "LYTV"
+  },
+  {
+    "Airport": "Amsterdam Airport Schiphol",
+    "Country": "Netherlands",
+    "IATA": "AMS",
+    "ICAO airport code": "EHAM"
+  },
+  {
+    "Airport": "Eindhoven Airport",
+    "Country": "Netherlands",
+    "IATA": "EIN",
+    "ICAO airport code": "EHEH"
+  },
+  {
+    "Airport": "Groningen Airport Eelde",
+    "Country": "Netherlands",
+    "IATA": "GRQ",
+    "ICAO airport code": "EHGG"
+  },
+  {
+    "Airport": "Maastricht Aachen Airport",
+    "Country": "Netherlands",
+    "IATA": "MST",
+    "ICAO airport code": "EHBK"
+  },
+  {
+    "Airport": "Rotterdam The Hague Airport",
+    "Country": "Netherlands",
+    "IATA": "RTM",
+    "ICAO airport code": "EHRD"
+  },
+  {
+    "Airport": "Norway",
+    "Country": "AES",
+    "IATA": "ENAL",
+    "ICAO airport code": ""
+  },
+  {
+    "Airport": "Bergen Airport",
+    "Country": "Norway",
+    "IATA": "BGO",
+    "ICAO airport code": "ENBR"
+  },
+  {
+    "Airport": "BodÃ¸ Airport",
+    "Country": "Norway",
+    "IATA": "BOO",
+    "ICAO airport code": "ENBO"
+  },
+  {
+    "Airport": "Haugesund Airport",
+    "Country": "Norway",
+    "IATA": "HAU",
+    "ICAO airport code": "ENHD"
+  },
+  {
+    "Airport": "Kristiansand Airport",
+    "Country": "Norway",
+    "IATA": "KRS",
+    "ICAO airport code": "ENCN"
+  },
+  {
+    "Airport": "Moss Airport Rygge",
+    "Country": "Norway",
+    "IATA": "RYG",
+    "ICAO airport code": "ENRY"
+  },
+  {
+    "Airport": "Oslo Airport Gardermoen",
+    "Country": "Norway",
+    "IATA": "OSL",
+    "ICAO airport code": "ENGM"
+  },
+  {
+    "Airport": "Sandefjord Airport Torp",
+    "Country": "Norway",
+    "IATA": "TRF",
+    "ICAO airport code": "ENTO"
+  },
+  {
+    "Airport": "Stavanger Airport",
+    "Country": "Norway",
+    "IATA": "SVG",
+    "ICAO airport code": "ENZV"
+  },
+  {
+    "Airport": "TromsÃ¸ Airport",
+    "Country": "Norway",
+    "IATA": "TOS",
+    "ICAO airport code": "ENTC"
+  },
+  {
+    "Airport": "Trondheim Airport",
+    "Country": "Norway",
+    "IATA": "TRD",
+    "ICAO airport code": "ENVA"
+  },
+  {
+    "Airport": "Gdansk Airport",
+    "Country": "Poland",
+    "IATA": "GDN",
+    "ICAO airport code": "EPGD"
+  },
+  {
+    "Airport": "Katowice Airport",
+    "Country": "Poland",
+    "IATA": "KTW",
+    "ICAO airport code": "EPKT"
+  },
+  {
+    "Airport": "KrakÃ³w Airport",
+    "Country": "Poland",
+    "IATA": "KRK",
+    "ICAO airport code": "EPKK"
+  },
+  {
+    "Airport": "Modlin Airport",
+    "Country": "Poland",
+    "IATA": "WMI",
+    "ICAO airport code": "EPMO"
+  },
+  {
+    "Airport": "Poznan Airport",
+    "Country": "Poland",
+    "IATA": "POZ",
+    "ICAO airport code": "EPPO"
+  },
+  {
+    "Airport": "Warsaw Airport",
+    "Country": "Poland",
+    "IATA": "WAW",
+    "ICAO airport code": "EPWA"
+  },
+  {
+    "Airport": "Wroclaw Airport",
+    "Country": "Poland",
+    "IATA": "WRO",
+    "ICAO airport code": "EPWR"
+  },
+  {
+    "Airport": "Faro Airport",
+    "Country": "Portugal",
+    "IATA": "FAO",
+    "ICAO airport code": "LPFR"
+  },
+  {
+    "Airport": "Lisbon Airport",
+    "Country": "Portugal",
+    "IATA": "LIS",
+    "ICAO airport code": "LPPT"
+  },
+  {
+    "Airport": "Madeira Airport",
+    "Country": "Portugal",
+    "IATA": "FNC",
+    "ICAO airport code": "LPMA"
+  },
+  {
+    "Airport": "Ponta Delgada Airport",
+    "Country": "Portugal",
+    "IATA": "PDL",
+    "ICAO airport code": "LPPD"
+  },
+  {
+    "Airport": "Porto Airport",
+    "Country": "Portugal",
+    "IATA": "OPO",
+    "ICAO airport code": "LPPR"
+  },
+  {
+    "Airport": "Bucharest Henri Coanda Airport",
+    "Country": "Romania",
+    "IATA": "OTP",
+    "ICAO airport code": "LROP"
+  },
+  {
+    "Airport": "Cluj-Napoca Airport",
+    "Country": "Romania",
+    "IATA": "CLJ",
+    "ICAO airport code": "LRCL"
+  },
+  {
+    "Airport": "Timisoara Airport",
+    "Country": "Romania",
+    "IATA": "TSR",
+    "ICAO airport code": "LRTR"
+  },
+  {
+    "Airport": "Koltsovo Airport",
+    "Country": "Russia",
+    "IATA": "SVX",
+    "ICAO airport code": "USSS"
+  },
+  {
+    "Airport": "Moscow Domodedovo Airport",
+    "Country": "Russia",
+    "IATA": "DME",
+    "ICAO airport code": "UUDD"
+  },
+  {
+    "Airport": "Moscow Sheremetyevo Airport",
+    "Country": "Russia",
+    "IATA": "SVO",
+    "ICAO airport code": "UUEE"
+  },
+  {
+    "Airport": "Moscow Vnukovo Airport",
+    "Country": "Russia",
+    "IATA": "VKO",
+    "ICAO airport code": "UUWW"
+  },
+  {
+    "Airport": "Saint Petersburg Pulkovo Airport",
+    "Country": "Russia",
+    "IATA": "LED",
+    "ICAO airport code": "ULLI"
+  },
+  {
+    "Airport": "Sochi Airport",
+    "Country": "Russia",
+    "IATA": "AER",
+    "ICAO airport code": "URSS"
+  },
+  {
+    "Airport": "Belgrade Nikola Tesla Airport",
+    "Country": "Serbia",
+    "IATA": "BEG",
+    "ICAO airport code": "LYBE"
+  },
+  {
+    "Airport": "Pristina Airport",
+    "Country": "Serbia",
+    "IATA": "PRN",
+    "ICAO airport code": "BKPR"
+  },
+  {
+    "Airport": "Bratislava Airport",
+    "Country": "Slovakia",
+    "IATA": "BTS",
+    "ICAO airport code": "LZIB"
+  },
+  {
+    "Airport": "Ljubljana Airport",
+    "Country": "Slovenia",
+    "IATA": "LJU",
+    "ICAO airport code": "LJLJ"
+  },
+  {
+    "Airport": "Alicante Airport",
+    "Country": "Spain",
+    "IATA": "ALC",
+    "ICAO airport code": "LEAL"
+  },
+  {
+    "Airport": "Barcelona Airport",
+    "Country": "Spain",
+    "IATA": "BCN",
+    "ICAO airport code": "LEBL"
+  },
+  {
+    "Airport": "Bilbao Airport",
+    "Country": "Spain",
+    "IATA": "BIO",
+    "ICAO airport code": "LEBB"
+  },
+  {
+    "Airport": "Fuerteventura Airport",
+    "Country": "Spain",
+    "IATA": "FUE",
+    "ICAO airport code": "GCFV"
+  },
+  {
+    "Airport": "Girona Airport",
+    "Country": "Spain",
+    "IATA": "GRO",
+    "ICAO airport code": "LEGE"
+  },
+  {
+    "Airport": "Gran Canaria Airport",
+    "Country": "Spain",
+    "IATA": "LPA",
+    "ICAO airport code": "GCLP"
+  },
+  {
+    "Airport": "Ibiza Airport",
+    "Country": "Spain",
+    "IATA": "IBZ",
+    "ICAO airport code": "LEIB"
+  },
+  {
+    "Airport": "Jerez Airport",
+    "Country": "Spain",
+    "IATA": "XRY",
+    "ICAO airport code": "LEJR"
+  },
+  {
+    "Airport": "Lanzarote Airport",
+    "Country": "Spain",
+    "IATA": "ACE",
+    "ICAO airport code": "GCRR"
+  },
+  {
+    "Airport": "Madrid Barajas Airport",
+    "Country": "Spain",
+    "IATA": "MAD",
+    "ICAO airport code": "LEMD"
+  },
+  {
+    "Airport": "Malaga Airport",
+    "Country": "Spain",
+    "IATA": "AGP",
+    "ICAO airport code": "LEMG"
+  },
+  {
+    "Airport": "Mallorca Airport",
+    "Country": "Spain",
+    "IATA": "PMI",
+    "ICAO airport code": "LEPA"
+  },
+  {
+    "Airport": "Menorca Airport",
+    "Country": "Spain",
+    "IATA": "MAH",
+    "ICAO airport code": "LEMH"
+  },
+  {
+    "Airport": "Murcia-San Javier Airport",
+    "Country": "Spain",
+    "IATA": "MJV",
+    "ICAO airport code": "LELC"
+  },
+  {
+    "Airport": "Reus Airport",
+    "Country": "Spain",
+    "IATA": "REU",
+    "ICAO airport code": "LERS"
+  },
+  {
+    "Airport": "Santander Airport",
+    "Country": "Spain",
+    "IATA": "SDR",
+    "ICAO airport code": "LEXJ"
+  },
+  {
+    "Airport": "Santiago de Compostela Airport",
+    "Country": "Spain",
+    "IATA": "SCQ",
+    "ICAO airport code": "LEST"
+  },
+  {
+    "Airport": "Seville Airport",
+    "Country": "Spain",
+    "IATA": "SVQ",
+    "ICAO airport code": "LEZL"
+  },
+  {
+    "Airport": "Tenerife North Airport",
+    "Country": "Spain",
+    "IATA": "TFN",
+    "ICAO airport code": "GCXO"
+  },
+  {
+    "Airport": "Tenerife South Airport",
+    "Country": "Spain",
+    "IATA": "TFS",
+    "ICAO airport code": "GCTS"
+  },
+  {
+    "Airport": "Valencia Airport",
+    "Country": "Spain",
+    "IATA": "VLC",
+    "ICAO airport code": "LEVC"
+  },
+  {
+    "Airport": "Zaragoza Airport",
+    "Country": "Spain",
+    "IATA": "ZAZ",
+    "ICAO airport code": "LEZG"
+  },
+  {
+    "Airport": "Gothenburg City Airport",
+    "Country": "Sweden",
+    "IATA": "GSE",
+    "ICAO airport code": "ESGP"
+  },
+  {
+    "Airport": "Gothenburg Landvetter Airport",
+    "Country": "Sweden",
+    "IATA": "GOT",
+    "ICAO airport code": "ESGG"
+  },
+  {
+    "Airport": "MalmÃ¶ Airport",
+    "Country": "Sweden",
+    "IATA": "MMX",
+    "ICAO airport code": "ESMS"
+  },
+  {
+    "Airport": "Stockholm Arlanda Airport",
+    "Country": "Sweden",
+    "IATA": "ARN",
+    "ICAO airport code": "ESSA"
+  },
+  {
+    "Airport": "Stockholm Bromma Airport",
+    "Country": "Sweden",
+    "IATA": "BMA",
+    "ICAO airport code": "ESSB"
+  },
+  {
+    "Airport": "Stockholm Skavsta Airport",
+    "Country": "Sweden",
+    "IATA": "NYO",
+    "ICAO airport code": "ESKN"
+  },
+  {
+    "Airport": "Stockholm VÃ¤sterÃ¥s Airport",
+    "Country": "Sweden",
+    "IATA": "VST",
+    "ICAO airport code": "ESOW"
+  },
+  {
+    "Airport": "Bern Airport",
+    "Country": "Switzerland",
+    "IATA": "BRN",
+    "ICAO airport code": "LSZB"
+  },
+  {
+    "Airport": "GenÃ¨ve Airport",
+    "Country": "Switzerland",
+    "IATA": "GVA",
+    "ICAO airport code": "LSGG"
+  },
+  {
+    "Airport": "Lugano Airport",
+    "Country": "Switzerland",
+    "IATA": "LUG",
+    "ICAO airport code": "LSZA"
+  },
+  {
+    "Airport": "ZÃ¼rich Airport",
+    "Country": "Switzerland",
+    "IATA": "ZRH",
+    "ICAO airport code": "LSZH"
+  },
+  {
+    "Airport": "Adana Airport",
+    "Country": "Turkey",
+    "IATA": "ADA",
+    "ICAO airport code": "LTAF"
+  },
+  {
+    "Airport": "Ankara Esenboga Airport",
+    "Country": "Turkey",
+    "IATA": "ESB",
+    "ICAO airport code": "LTAC"
+  },
+  {
+    "Airport": "Antalya Airport",
+    "Country": "Turkey",
+    "IATA": "AYT",
+    "ICAO airport code": "LTAI"
+  },
+  {
+    "Airport": "Dalaman Airport",
+    "Country": "Turkey",
+    "IATA": "DLM",
+    "ICAO airport code": "LTBS"
+  },
+  {
+    "Airport": "Istanbul AtatÃ¼rk Airport",
+    "Country": "Turkey",
+    "IATA": "IST",
+    "ICAO airport code": "LTBA"
+  },
+  {
+    "Airport": "Istanbul Sabiha GÃ¶kcen Airport",
+    "Country": "Turkey",
+    "IATA": "SAW",
+    "ICAO airport code": "LTFJ"
+  },
+  {
+    "Airport": "Izmir Adnan Menderes Airport",
+    "Country": "Turkey",
+    "IATA": "ADB",
+    "ICAO airport code": "LTBJ"
+  },
+  {
+    "Airport": "Milas-Bodrum Airport",
+    "Country": "Turkey",
+    "IATA": "BJV",
+    "ICAO airport code": "LTFE"
+  },
+  {
+    "Airport": "Trabzon Airport",
+    "Country": "Turkey",
+    "IATA": "TZX",
+    "ICAO airport code": "LTCG"
+  },
+  {
+    "Airport": "Donetsk Airport",
+    "Country": "Ukraine",
+    "IATA": "DOK",
+    "ICAO airport code": "UKCC"
+  },
+  {
+    "Airport": "Kiev Borispol Airport",
+    "Country": "Ukraine",
+    "IATA": "KBP",
+    "ICAO airport code": "UKBB"
+  },
+  {
+    "Airport": "Kiev Zhuliany Airport",
+    "Country": "Ukraine",
+    "IATA": "IEV",
+    "ICAO airport code": "UKKK"
+  },
+  {
+    "Airport": "Kharkiv Airport",
+    "Country": "Ukraine",
+    "IATA": "HRK",
+    "ICAO airport code": "UKHH"
+  },
+  {
+    "Airport": "Odessa Airport",
+    "Country": "Ukraine",
+    "IATA": "ODS",
+    "ICAO airport code": "UKOO"
+  },
+  {
+    "Airport": "Simferopol Airport",
+    "Country": "Ukraine",
+    "IATA": "SIP",
+    "ICAO airport code": "UKFF"
+  },
+  {
+    "Airport": "Aberdeen Airport",
+    "Country": "United Kingdom",
+    "IATA": "ABZ",
+    "ICAO airport code": "EGPD"
+  },
+  {
+    "Airport": "Belfast City Airport",
+    "Country": "United Kingdom",
+    "IATA": "BHD",
+    "ICAO airport code": "EGAC"
+  },
+  {
+    "Airport": "Belfast International Airport",
+    "Country": "United Kingdom",
+    "IATA": "BFS",
+    "ICAO airport code": "EGAA"
+  },
+  {
+    "Airport": "Birmingham Airport",
+    "Country": "United Kingdom",
+    "IATA": "BHX",
+    "ICAO airport code": "EGBB"
+  },
+  {
+    "Airport": "Bristol Airport",
+    "Country": "United Kingdom",
+    "IATA": "BRS",
+    "ICAO airport code": "EGGD"
+  },
+  {
+    "Airport": "Cardiff Airport",
+    "Country": "United Kingdom",
+    "IATA": "CWL",
+    "ICAO airport code": "EGFF"
+  },
+  {
+    "Airport": "East Midlands Airport",
+    "Country": "United Kingdom",
+    "IATA": "EMA",
+    "ICAO airport code": "EGNX"
+  },
+  {
+    "Airport": "Edinburgh Airport",
+    "Country": "United Kingdom",
+    "IATA": "EDI",
+    "ICAO airport code": "EGPH"
+  },
+  {
+    "Airport": "Glasgow Airport",
+    "Country": "United Kingdom",
+    "IATA": "GLA",
+    "ICAO airport code": "EGPF"
+  },
+  {
+    "Airport": "Glasgow Prestwick Airport",
+    "Country": "United Kingdom",
+    "IATA": "PIK",
+    "ICAO airport code": "EGPK"
+  },
+  {
+    "Airport": "Humberside Airport",
+    "Country": "United Kingdom",
+    "IATA": "HUY",
+    "ICAO airport code": "EGNJ"
+  },
+  {
+    "Airport": "Jersey Airport",
+    "Country": "United Kingdom",
+    "IATA": "JER",
+    "ICAO airport code": "EGJJ"
+  },
+  {
+    "Airport": "Leeds Bradford Airport",
+    "Country": "United Kingdom",
+    "IATA": "LBA",
+    "ICAO airport code": "EGNM"
+  },
+  {
+    "Airport": "Liverpool Airport",
+    "Country": "United Kingdom",
+    "IATA": "LPL",
+    "ICAO airport code": "EGGP"
+  },
+  {
+    "Airport": "London City Airport",
+    "Country": "United Kingdom",
+    "IATA": "LCY",
+    "ICAO airport code": "EGLC"
+  },
+  {
+    "Airport": "London Gatwick Airport",
+    "Country": "United Kingdom",
+    "IATA": "LGW",
+    "ICAO airport code": "EGKK"
+  },
+  {
+    "Airport": "London Heathrow Airport",
+    "Country": "United Kingdom",
+    "IATA": "LHR",
+    "ICAO airport code": "EGLL"
+  },
+  {
+    "Airport": "London Luton Airport",
+    "Country": "United Kingdom",
+    "IATA": "LTN",
+    "ICAO airport code": "EGGW"
+  },
+  {
+    "Airport": "London Southend Airport",
+    "Country": "United Kingdom",
+    "IATA": "SEN",
+    "ICAO airport code": "EGMC"
+  },
+  {
+    "Airport": "London Stansted Airport",
+    "Country": "United Kingdom",
+    "IATA": "STN",
+    "ICAO airport code": "EGSS"
+  },
+  {
+    "Airport": "Manchester Airport",
+    "Country": "United Kingdom",
+    "IATA": "MAN",
+    "ICAO airport code": "EGCC"
+  },
+  {
+    "Airport": "Southampton Airport",
+    "Country": "United Kingdom",
+    "IATA": "SOU",
+    "ICAO airport code": "EGHI"
+  },
+  {
+    "Airport": "Newcastle Airport",
+    "Country": "United Kingdom",
+    "IATA": "NCL",
+    "ICAO airport code": "EGNT"
+  }
+]

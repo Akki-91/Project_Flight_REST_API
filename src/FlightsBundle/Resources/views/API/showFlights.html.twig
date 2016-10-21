@@ -1,0 +1,78 @@
+{% extends "FlightsBundle::bootstrap.html.twig" %}
+
+{% block showFlights %}
+
+<div style="display:flex;justify-content:center;align-items:center;height: 20vh">
+    {% if is_granted('ROLE_USER') %}
+            <p class="flights">{{ app.user.username }}, we choose couple of flights for you:</p>
+    {% endif %}
+</div>
+    <div style="display:flex;justify-content:center;align-items:center;">
+        <div>
+
+            {% set destinationLocation = "" %}
+
+            {% for singleIATA in IATAcode %}
+                {% if result.DestinationLocation ==  singleIATA.IATA %}
+                    {% set destinationLocation = singleIATA.Airport %}
+                {% endif %}
+            {% endfor %}
+
+            <table class="table" style="background: rgba(255,255,255,0.45); border-radius: 8px;">
+                <tr>
+                    <th>Destination</th>
+                    <th>From</th>
+                    <th>Currency</th>
+                    <th>Price</th>
+                    {% if is_granted('ROLE_USER') %}
+                        <th>Add to observed</th>
+                    {% endif %}
+                </tr>
+
+            {% for flight in result.FareInfo %}
+
+                {% set fromLocation = "" %}
+
+                {% for singleIATA in IATAcode %}
+                    {% if flight.OriginLocation ==  singleIATA.IATA %}
+                        {% set fromLocation = singleIATA.Airport %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if fromLocation!="" %}
+
+                        <tr>
+                            <td>{{ destinationLocation }}</td>
+                            <td>{{ fromLocation }}</td>
+                            <td>{{ flight.CurrencyCode }}</td>
+                            <td>{{ flight.LowestFare.Fare }}</td>
+                            <td>
+                                {% if is_granted('ROLE_USER') %}
+                                    <form method="post" target="_blank" action="{{ path("saveFlight") }}">
+                                        <input type="hidden" value="{{ destinationLocation }}" name="destination">
+                                        <input type="hidden" value="{{ fromLocation }}" name="from">
+                                        <input type="hidden" value="{{ flight.CurrencyCode }}" name="currency">
+                                        <input type="hidden" value="{{ flight.LowestFare.Fare }}" name="price">
+                                        <input type="hidden" value="{{ flight.Links.0.href }}" name="href">
+                                        <input type="submit" value="Add to observed." class="green btn btn-default">
+                                    </form>
+                                {% endif %}
+                            </td>
+                        </tr>
+
+
+                {% endif %}
+            {% endfor %}
+            </table>
+        </div>
+    </div>
+
+    <div style="display:flex;justify-content:center;align-items:center;">
+        <form action="{{ path('getApi') }}">
+            <input type="submit" value="Go back to search.">
+        </form>
+    </div>
+
+{% endblock showFlights %}
+
+

@@ -1,0 +1,57 @@
+body {
+    background-image: url("../Images/background.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+input[value="Register"]{
+    margin-top: 2%;
+    width: 200px;
+    margin-left: 8%;
+}
+
+
+#register_form {
+    width: 200px;
+    padding-left: 15px;
+}
+
+.buttonSize {
+    width: 100%;
+    margin: -4%;
+}
+
+.bottomMargin {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.floatRight {
+    display: inline-block;
+    float: right;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.flights {
+    font-size: 22px;
+}
+
+#register {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#search {
+    margin-top: 5px;
+    width: 200px;
+    margin-left: 0px;
+}
+
+#search_observed {
+    margin-left: 130px;
+}

@@ -1,0 +1,18 @@
+{% extends "FlightsBundle::bootstrap.html.twig" %}
+
+{% block register2 %}
+{% trans_default_domain 'FOSUserBundle' %}
+    <div style="height: 200px">
+<div id="register_form">
+    {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+
+    {{ form_widget(form) }}
+    <div>
+        <input type="submit" value="{{ 'registration.submit'|trans }}" class="btn btn-default" id="register" />
+        <a href="{{ path('getApi') }}" class="btn btn-default" id="search">Go back to search</a>
+    </div>
+
+    {{ form_end(form) }}
+</div>
+    </div>
+{% endblock register2 %}

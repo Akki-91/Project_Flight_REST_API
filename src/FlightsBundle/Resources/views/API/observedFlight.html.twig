@@ -1,0 +1,27 @@
+{% extends "FlightsBundle::bootstrap.html.twig" %}
+
+{% block observed %}
+    <div style="display:flex;justify-content:center;align-items:center;height: 70vh">
+        <div>
+            <table class="table" style="background: rgba(255,255,255,0.45); border-radius: 8px;">
+                <tr>
+                    <th>Destination</th>
+                    <th>From</th>
+                    <th>Currency</th>
+                    <th>Price</th>
+                </tr>
+
+            {% for row in observed %}
+                <tr style="border-top: inherit">
+                    <td>{{ row.destination }}</td>
+                    <td>{{ row.fromLocation }}</td>
+                    <td>{{ row.currency }}</td>
+                    <td>{{ row.price }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+            <a href="{{ path('getApi') }}" class="btn btn-default" id="search_observed">Go back to search.</a>
+        </div>
+    </div>
+
+{% endblock observed %}

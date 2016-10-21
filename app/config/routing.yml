@@ -1,0 +1,17 @@
+flights:
+    resource: "@FlightsBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+fos_user_register:
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /register
+
+fos_user_profile_show:
+    pattern: /getApi
+    defaults: { _controller: FOSUserBundle:Profile:show }
+    requirements:
+        _method: GET

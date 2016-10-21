@@ -1,0 +1,48 @@
+{% extends "FlightsBundle::bootstrap.html.twig" %}
+
+{% block login %}
+    <div style="height: 100px">
+{% if not is_granted('ROLE_USER') %}
+    <div style="display:flex;justify-content:flex-end;align-items:center;">
+        <div>
+            <form action="{{ path("fos_user_security_check") }}" method="post" >
+
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="_username" required="required" />
+
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="_password" required="required" /><br>
+
+                <div class="floatRight" >
+                    <input class="btn btn-default" type="submit" id="_submit" name="_submit" value="Log in"/>
+                    <a href="{{ path('fos_user_registration_register')}}" class="btn btn-default">Register</a>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+{% endif %}
+
+{% if is_granted('ROLE_USER') %}
+    <div style="display:flex;justify-content:flex-end;align-items:center;">
+        <div>
+            <div class="bottomMargin">
+                <h4>Welcome: {{ app.user.username }}</h4>
+            </div>
+
+            <div>
+                <form action="{{ path('observed')}}">
+                    <input type="submit" value="Your observed flights." class="buttonSize">
+                </form>
+            </div>
+            <div>
+                <form action="{{ path('fos_user_security_logout')}}">
+                    <input type="submit" value="Logout." class="buttonSize">
+                </form>
+            </div>
+        </div>
+    </div>
+{% endif %}
+    </div>
+{% endblock login %}
