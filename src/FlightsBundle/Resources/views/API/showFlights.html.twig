@@ -41,21 +41,14 @@
 
                 {% if fromLocation!="" %}
 
-                        <tr>
+                        <tr data-destination="{{ destinationLocation }}" data-from-location="{{ fromLocation }}" data-currency="{{ flight.CurrencyCode }}" data-price="{{ flight.LowestFare.Fare }}" data-href="{{ flight.Links.0.href }}">
                             <td>{{ destinationLocation }}</td>
                             <td>{{ fromLocation }}</td>
                             <td>{{ flight.CurrencyCode }}</td>
                             <td>{{ flight.LowestFare.Fare }}</td>
                             <td>
                                 {% if is_granted('ROLE_USER') %}
-                                    <form method="post" target="_blank" action="{{ path("saveFlight") }}">
-                                        <input type="hidden" value="{{ destinationLocation }}" name="destination">
-                                        <input type="hidden" value="{{ fromLocation }}" name="from">
-                                        <input type="hidden" value="{{ flight.CurrencyCode }}" name="currency">
-                                        <input type="hidden" value="{{ flight.LowestFare.Fare }}" name="price">
-                                        <input type="hidden" value="{{ flight.Links.0.href }}" name="href">
-                                        <input type="submit" value="Add to observed." class="green btn btn-default">
-                                    </form>
+                                        <input type="button" value="Add to observed." class="green btn btn-default">
                                 {% endif %}
                             </td>
                         </tr>

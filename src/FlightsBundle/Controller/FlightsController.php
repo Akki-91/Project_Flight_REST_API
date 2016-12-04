@@ -9,6 +9,7 @@ use Symfony\Component\Config\Definition\Exception\Exception;
 use Symfony\Component\HttpFoundation\Response;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 
 class FlightsController extends Controller
@@ -23,11 +24,10 @@ class FlightsController extends Controller
         $newFlight = new Flights();
 
         $destination = $request->request->get('destination');
-        $from = $request->request->get('from');
+        $fromLocation = $request->request->get('fromLocation');
         $currency = $request->request->get('currency');
         $price = $request->request->get('price');
         $href = $request->request->get('href');
-
 
         $repository = $this->getDoctrine()->getRepository("FlightsBundle:Flights");
         $exists = $repository->findByHref($href, $user);
@@ -37,20 +37,49 @@ class FlightsController extends Controller
         }
 
         $newFlight->setDestination($destination);
-        $newFlight->setFromLocation($from);
+        $newFlight->setFromLocation($fromLocation);
         $newFlight->setCurrency($currency);
         $newFlight->setPrice($price);
         $newFlight->setHref($href);
         $newFlight->setUser($user);
 
-        dump($newFlight);
-
         $em = $this->getDoctrine()->getManager();
         $em->persist($newFlight);
         $em->flush();
 
-        return new Response("<html><body><script>window.close();</script></body></html>");
+        return new JsonResponse(array(
+            'user' => $user,
+            'destination' => $destination,
+            'fromLocation' => $fromLocation,
+            'currency' => $currency,
+            'price' => $price,
+            'href' => $href
+        ));
 
+    }
+
+    /**
+     * @Route("/deleteFlight", name="deleteFlight")
+     * @Template("FlightsBundle:API:deleteFlight.html.twig")
+     */
+    public function deleteFlightAction(Request $request)
+    {
+        //$user = $this->getUser();
+        $id = $request->request->get('id');
+
+        $repository = $this->getDoctrine()->getRepository("FlightsBundle:Flights");
+        $deleted = $repository->find($id);
+
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($deleted);
+        $em->flush();
+
+//        $redirect = $this->redirectToRoute("observed");
+//        return new Response("<html><body>$redirect<script>window.opener.close();</script></body></html>");
+
+        return new JsonResponse(array(
+            'id' => $id
+        ));
     }
 
     /**

@@ -12,15 +12,21 @@
                 </tr>
 
             {% for row in observed %}
-                <tr style="border-top: inherit">
+                <tr style="border-top: inherit" data-id="{{ row.id }}">
                     <td>{{ row.destination }}</td>
                     <td>{{ row.fromLocation }}</td>
                     <td>{{ row.currency }}</td>
                     <td>{{ row.price }}</td>
+                    {% if is_granted('ROLE_USER') %}
+                        <td>
+                            <input type="button" value="Delete from observed." class="delete btn btn-default">
+                        </td>
+                    {% endif %}
                 </tr>
             {% endfor %}
             </table>
             <a href="{{ path('getApi') }}" class="btn btn-default" id="search_observed">Go back to search.</a>
+            <a href="{{ path('observed') }}" class="btn btn-default" id="observed">Refresh observed list.</a>
         </div>
     </div>
 
